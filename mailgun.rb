@@ -1,5 +1,6 @@
 #Add to development or production environment
 #this one is based on mailgun sandbox smtp way
+#can only send it to the invited mails or purchase their plans
   config.action_mailer.perform_deliveries = true
   config.action_mailer.delivery_method = :smtp
   host = 'localhost:3000'
